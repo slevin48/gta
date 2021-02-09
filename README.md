@@ -6,20 +6,27 @@ https://github.com/aitorzip/DeepGTAV
 https://github.com/aitorzip/VPilot
 https://github.com/cpgeier/SantosNet
 
-## [GTA_5_steering.ipynb](GTA_5_steering.ipynb)
+## Record display
+
+https://pythonprogramming.net/more-interesting-self-driving-python-plays-gta-v/
+[Youtube channel - Python Plays: Grand Theft Auto V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a)
+https://github.com/sentdex/pygta5/
+
+## Record controller
+
+https://medium.com/@alexlau27/playing-ps4-with-tensorflow-2-1-and-alexnet-2aeec0e2a5d8
+https://github.com/komefai/PS4Macro
 
 
+## Python plays GTA V
+
+### [GTA_5_steering.ipynb](GTA_5_steering.ipynb)
 
 Source: 
 [Building a Self-Driving Vehicle in GTA-V Using Deep Learning and Convolutional Neural Network](https://medium.com/@alzaibnasiruddin/building-a-self-driving-vehicle-in-gta-v-using-deep-learning-and-convolutional-neural-network-696b38b4c81e)
 https://github.com/Alzaib/Autonomous-Self-Driving-Car-GTA-5
 
 
-## Python plays GTA V
-
-https://pythonprogramming.net/more-interesting-self-driving-python-plays-gta-v/
-[Youtube channel - Python Plays: Grand Theft Auto V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a)
-https://github.com/sentdex/pygta5/
 
 
 [Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
