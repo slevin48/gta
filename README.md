@@ -17,6 +17,9 @@ https://github.com/sentdex/pygta5/
 
 https://medium.com/@alexlau27/playing-ps4-with-tensorflow-2-1-and-alexnet-2aeec0e2a5d8
 https://github.com/komefai/PS4Macro
+Keyboad control:
+https://github.com/starshinata/PS4-Keyboard-and-Mouse-Adapter
+https://ps4mousetocontroller.com/download.jsp
 
 
 ## Python plays GTA V
