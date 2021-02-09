@@ -9,6 +9,7 @@ https://github.com/cpgeier/SantosNet
 ## Record display
 
 https://pythonprogramming.net/more-interesting-self-driving-python-plays-gta-v/
+https://pythonprogramming.net/self-driving-car-neural-network-training-data-python-plays-gta-v/
 [Youtube channel - Python Plays: Grand Theft Auto V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a)
 https://github.com/sentdex/pygta5/
 
