@@ -31,6 +31,10 @@ Keyboad control:
 ![ps4-keyboard-adapter](ps4-keyboard-adapter.png)
 
 
+## Dataset browsing app
+
+![streamlit_app.png](streamlit_app.png)
+
 ## Python plays GTA V
 
 ### [GTA_5_steering.ipynb](GTA_5_steering.ipynb)
