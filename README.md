@@ -10,8 +10,10 @@ https://github.com/cpgeier/SantosNet
 
 https://pythonprogramming.net/more-interesting-self-driving-python-plays-gta-v/
 https://pythonprogramming.net/self-driving-car-neural-network-training-data-python-plays-gta-v/
-[Youtube channel - Python Plays: Grand Theft Auto V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a)
 https://github.com/sentdex/pygta5/
+[Youtube channel - Python Plays: Grand Theft Auto V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a)
+[Self-driving motorbike video](https://youtu.be/nWJZ4w0HKz8?t=810)
+![gta-self-driving](gta-self-driving.gif)
 
 ## Record controller
 
