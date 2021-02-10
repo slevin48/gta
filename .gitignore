@@ -10,3 +10,4 @@ __pycache__/
 training_data.npy
 training_data/
 pygta/
+screenshots/
