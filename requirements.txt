@@ -5,3 +5,4 @@ scikit-learn
 imgaug 
 opencv-python
 tensorflow
+pywin32

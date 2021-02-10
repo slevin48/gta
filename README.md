@@ -25,6 +25,11 @@ Keyboad control:
 * https://github.com/starshinata/PS4-Keyboard-and-Mouse-Adapter
 * https://ps4mousetocontroller.com/download.jsp
 
+[PyWin32](https://pypi.org/project/pywin32/) to record keyboard
+** /!\ ** Map A to Q on French keyboard!!!
+
+![ps4-keyboard-adapter](ps4-keyboard-adapter.png)
+
 
 ## Python plays GTA V
 
