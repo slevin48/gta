@@ -14,7 +14,7 @@
 * [Youtube channel - Python Plays: Grand Theft Auto V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a)
 * [Self-driving motorbike video](https://youtu.be/nWJZ4w0HKz8?t=810)
 
-![gta-self-driving](gta-self-driving.gif)
+![gta-self-driving](img/gta-self-driving.gif)
 
 ## Record controller
 
@@ -28,16 +28,16 @@ Keyboad control:
 [PyWin32](https://pypi.org/project/pywin32/) to record keyboard
 ** /!\ ** Map A to Q on French keyboard!!!
 
-![ps4-keyboard-adapter](ps4-keyboard-adapter.png)
+![ps4-keyboard-adapter](img/ps4-keyboard-adapter.png)
 
 
 ## Dataset browsing app
 
-![streamlit_app.png](streamlit_app.png)
+![streamlit_app.png](img/streamlit_app.png)
 
 ## Python plays GTA V
 
-### [GTA_5_steering.ipynb](GTA_5_steering.ipynb)
+[GTA_5_steering.ipynb](Autonomous-Self-Driving-Car-GTA-5/GTA_5_steering.ipynb)
 
 Sources: 
 * [Building a Self-Driving Vehicle in GTA-V Using Deep Learning and Convolutional Neural Network](https://medium.com/@alzaibnasiruddin/building-a-self-driving-vehicle-in-gta-v-using-deep-learning-and-convolutional-neural-network-696b38b4c81e)

@@ -6,7 +6,7 @@ import cv2
 
 @st.cache(show_spinner=False)
 def load_image():
-    training_data = np.load("training_data.npy",allow_pickle=True)
+    training_data = np.load("training_data/training_data-0.npy",allow_pickle=True)
     return training_data
 
 st.sidebar.title("GTAV dataset")
