@@ -17,3 +17,7 @@ def read_controller(XMLfile):
 
     df = pd.DataFrame(rows,columns = headers)
     return df 
+
+def save_controller(df,xlsname):
+    # xlsname = 'test.xlsx'
+    df.to_excel(xlsname)
