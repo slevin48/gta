@@ -4,7 +4,8 @@ import numpy as np
 from grabscreen import grab_screen
 import cv2
 import time
-from directkeys import PressKey,ReleaseKey, Z, Q, S, D
+# from directkeys import PressKey,ReleaseKey, Z, Q, S, D
+from directkeys2 import PressKey,ReleaseKey, Z, Q, S, D
 from alexnet import alexnet
 from getkeys import key_check
 
@@ -81,6 +82,7 @@ def main():
                 straight()
 
         keys = key_check()
+        print(keys)
 
         # p pauses game and can get annoying.
         if 'T' in keys:
