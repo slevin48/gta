@@ -46,6 +46,22 @@ The folder [ps4_macro](ps4_macro) contains the controller record and python func
 
 ![streamlit_app.png](img/streamlit_app.png)
 
+
+## Train model 
+
+1 epoch only with [training0.py](2_train_model/training0.py)
+
+Tensorflow on i7-6700HQ CPU @ 2.60GHz / 8Go RAM
+21 steps == 6m 27s
+![training0.png](img/training0.png)
+
+I stopped it to train on my GPU instead
+
+Tensorflow on NVIDIA GeFOrce GTX 960M
+21 steps == 3m 40s
+92 steps == 17m 6s
+![training1.png](img/training1.png)
+
 ## Python plays GTA V
 
 [GTA_5_steering.ipynb](Autonomous-Self-Driving-Car-GTA-5/GTA_5_steering.ipynb)
