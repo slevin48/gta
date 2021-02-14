@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 import os
 
-training_dataset = "training_data-2021-02-12-4"
+training_dataset = "training_data-2021-02-14-2"
 
 l = os.listdir("training_data/"+training_dataset)
 n = len(l)
