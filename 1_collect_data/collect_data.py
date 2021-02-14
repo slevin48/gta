@@ -6,12 +6,12 @@ import datetime
 from getkeys import key_check
 import os
 
-w = [1,0,0,0,0,0,0,0,0]
+z = [1,0,0,0,0,0,0,0,0]
 s = [0,1,0,0,0,0,0,0,0]
 q = [0,0,1,0,0,0,0,0,0]
 d = [0,0,0,1,0,0,0,0,0]
-wq = [0,0,0,0,1,0,0,0,0]
-wd = [0,0,0,0,0,1,0,0,0]
+zq = [0,0,0,0,1,0,0,0,0]
+zd = [0,0,0,0,0,1,0,0,0]
 sq = [0,0,0,0,0,0,1,0,0]
 sd = [0,0,0,0,0,0,0,1,0]
 nk = [0,0,0,0,0,0,0,0,1]
@@ -34,21 +34,21 @@ def keys_to_output(keys):
     '''
     Convert keys to a ...multi-hot... array
      0  1  2  3  4   5   6   7    8
-    [W, S, Q, D, WQ, WD, SQ, SD, NOKEY] boolean values.
+    [Z, S, Q, D, ZQ, ZD, SQ, SD, NOKEY] boolean values.
     A replaced by Q for french keyboard
     '''
     output = [0,0,0,0,0,0,0,0,0]
 
-    if 'W' in keys and 'Q' in keys:
-        output = wq
-    elif 'W' in keys and 'D' in keys:
-        output = wd
+    if 'Z' in keys and 'Q' in keys:
+        output = zq
+    elif 'Z' in keys and 'D' in keys:
+        output = zd
     elif 'S' in keys and 'Q' in keys:
         output = sq
     elif 'S' in keys and 'D' in keys:
         output = sd
-    elif 'W' in keys:
-        output = w
+    elif 'Z' in keys:
+        output = z
     elif 'S' in keys:
         output = s
     elif 'Q' in keys:
@@ -83,8 +83,8 @@ def main(file_name, starting_value):
             
             keys = key_check()
             output = keys_to_output(keys)
-            timing = datetime.datetime.now()
-            training_data.append([screen,timing])
+            # timing = datetime.datetime.now()
+            training_data.append([screen,output])
 
             #print('loop took {} seconds'.format(time.time()-last_time))
             last_time = time.time()

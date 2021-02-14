@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\devel\\gta\\model_alexnet-92"
+all_model_checkpoint_paths: "D:\\devel\\gta\\model_alexnet-92"
