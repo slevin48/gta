@@ -33,7 +33,7 @@ def alexnet(width, height, lr):
     network = dropout(network, 0.5)
     network = fully_connected(network, 4096, activation='tanh')
     network = dropout(network, 0.5)
-    network = fully_connected(network, 3, activation='softmax')
+    network = fully_connected(network, 9, activation='softmax')
     network = regression(network, optimizer='momentum',
                          loss='categorical_crossentropy',
                          learning_rate=lr, name='targets')

@@ -18,7 +18,7 @@ nk = [0,0,0,0,0,0,0,0,1]
 
 starting_value = 1
 
-training_dataset = "training_data_2021-02-16-1"
+training_dataset = "training_data_2021-02-16-2"
 
 while True:
     file_name = 'training_data/'+training_dataset+'/training_data-{}.npy'.format(starting_value)

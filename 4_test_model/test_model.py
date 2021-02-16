@@ -11,11 +11,13 @@ from getkeys import key_check
 
 import random
 
+training_dataset = "training_data_2021-02-16-1"
+
 WIDTH = 160
 HEIGHT = 120
 LR = 1e-3
 EPOCHS = 10
-MODEL_NAME = 'pygta5-motorcycle-training-data-and-model\model\pygta5-car-fast-{}-{}-{}-epochs-300K-data.model'.format(LR, 'alexnetv2',EPOCHS)
+MODEL_NAME = 'gta-{}-{}-{}-epochs-{}.model'.format(LR, 'alexnetv2',EPOCHS,training_dataset)        
 
 t_time = 0.09
 
@@ -46,7 +48,7 @@ def right():
     ReleaseKey(D)
     
 model = alexnet(WIDTH, HEIGHT, LR)
-model.load(MODEL_NAME)
+model.load("model/"+MODEL_NAME)
 
 def main():
     last_time = time.time()
@@ -60,7 +62,7 @@ def main():
         if not paused:
             # 800x600 windowed mode
             #screen =  np.array(ImageGrab.grab(bbox=(0,40,800,640)))
-            screen = grab_screen(region=(0,40,800,640))
+            screen = grab_screen(region=(0,40,960,560))
             print('loop took {} seconds'.format(time.time()-last_time))
             last_time = time.time()
             screen = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
@@ -72,11 +74,11 @@ def main():
             turn_thresh = .75
             fwd_thresh = 0.70
 
-            if prediction[1] > fwd_thresh:
+            if prediction[0] > fwd_thresh:
                 straight()
-            elif prediction[0] > turn_thresh:
+            elif prediction[5] > turn_thresh:
                 left()
-            elif prediction[2] > turn_thresh:
+            elif prediction[6] > turn_thresh:
                 right()
             else:
                 straight()
