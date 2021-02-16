@@ -66,19 +66,26 @@ Tensorflow on NVIDIA GeFOrce GTX 960M
 
 [GTA_5_steering.ipynb](Autonomous-Self-Driving-Car-GTA-5/GTA_5_steering.ipynb)
 
-Sources: 
+## Sources: 
 * [Building a Self-Driving Vehicle in GTA-V Using Deep Learning and Convolutional Neural Network](https://medium.com/@alzaibnasiruddin/building-a-self-driving-vehicle-in-gta-v-using-deep-learning-and-convolutional-neural-network-696b38b4c81e)
 * https://github.com/Alzaib/Autonomous-Self-Driving-Car-GTA-5
 * https://medium.com/@alexlau27/playing-ps4-with-tensorflow-2-1-and-alexnet-2aeec0e2a5d8
 * https://github.com/komefai/PS4Macro
 * https://github.com/starshinata/PS4-Keyboard-and-Mouse-Adapter
 
-Go Further:
+## Go Further:
 
-* [Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
+### [Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
 * https://bitbucket.org/visinf/projects-2016-playing-for-data/src/master/
 * https://download.visinf.tu-darmstadt.de/data/from_games/index.html
 * http://download.visinf.tu-darmstadt.de/data/from_games/data/eccv-2016-richter-playing_for_data.pdf
+
+| GTA driving data                     | semantic sampling                   | 
+| -------------------------------------|:-----------------------------------:|
+| ![gta image](https://download.visinf.tu-darmstadt.de/data/from_games/data/17086_image.png) | ![semantic sampling](https://download.visinf.tu-darmstadt.de/data/from_games/data/17086_label.png) |
+
+### [LiDAR-GTA-V](https://github.com/UsmanJafri/LiDAR-GTA-V)
+![LiDAR sample traffic](https://github.com/slevin48/LiDAR-GTA-V/raw/master/samples/LiDAR%20Sample%20-%20Traffic.png)
 
 More inspiration:
 
