@@ -93,6 +93,7 @@ More inspiration:
 * https://github.com/aitorzip/VPilot
 * https://github.com/cpgeier/SantosNet
 * https://ps4mousetocontroller.com/download.jsp
+* [OpenCV Python Tutorial - Find Lanes for Self-Driving Cars](https://www.youtube.com/watch?v=eLTLtUVuuy4&ab_channel=ProgrammingKnowledge)
 
 
 ![gif](https://github.com/cpgeier/SantosNet/raw/master/sample.gif?raw=true)
