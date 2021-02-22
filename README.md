@@ -50,7 +50,7 @@ The folder [ps4_macro](ps4_macro) contains the controller record and python func
 **/!\\** Map A to Q on French keyboard!!!
 
 
-## 3. <a name="apps"></a>Dataset browsing apps
+## 2. <a name="apps"></a>Dataset browsing apps
 
 ### MATLAB desktop App
 ![matlab_app](training_data_images/image_2.png)
@@ -59,7 +59,7 @@ The folder [ps4_macro](ps4_macro) contains the controller record and python func
 ![streamlit_app.png](img/streamlit_app.png)
 
 
-## 4. <a name="train"></a>Train model 
+## 3. <a name="train"></a>Train model 
 
 ### MATLAB Deep Learning toolbox
 
