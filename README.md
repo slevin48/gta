@@ -6,8 +6,6 @@
 3. [Train model](#train)
 
 
-![DeepGTAV](https://camo.githubusercontent.com/5b20c613eb17275cf8014a9541f20d4e5cd71fb41bcc0f7b221e754c91131cc3/68747470733a2f2f696d672e677461352d6d6f64732e636f6d2f7139352f696d616765732f6e61747572616c766973696f6e2d70686f746f7265616c69737469632d677461762f6234646539342d47544135253230323031362d30382d323825323032322d30352d35322e6a7067)
-
 The goal of this project is to develop a self-driving car in Grand Theft Auto V like in this example:
 
 ![gta-self-driving](img/gta-self-driving.gif)
@@ -21,9 +19,9 @@ The goal of this project is to develop a self-driving car in Grand Theft Auto V 
 
 ### Record display
 
-The first challenge is to record the display to replay it for further analysis (like a simple object detection following the car here):
+The first challenge is to record the display to replay it for further analysis (like a simple car detection here):
 
-![gta-car-detection](img/gta-car-detection.gif)
+![gta-car-detection](img/gta-videoPlayer-full-view.gif)
 
 
 
@@ -53,7 +51,7 @@ The folder [ps4_macro](ps4_macro) contains the controller record and python func
 ## 2. <a name="apps"></a>Dataset browsing apps
 
 ### MATLAB desktop App
-![matlab_app](training_data_images/image_2.png)
+![matlab_app](matlab/training_data_images/image_2.png)
 
 ### Streamlit Web App
 ![streamlit_app.png](img/streamlit_app.png)
@@ -63,7 +61,7 @@ The folder [ps4_macro](ps4_macro) contains the controller record and python func
 
 ### MATLAB Deep Learning toolbox
 
-![matlab_deep_learning](training_data_images/image_3.png)
+![matlab_deep_learning](matlab/training_data_images/image_3.png)
 
 ### Tensorflow
 
@@ -127,6 +125,3 @@ Object Instance Segmentation
 * https://github.com/cpgeier/SantosNet
 * https://ps4mousetocontroller.com/download.jsp
 * [OpenCV Python Tutorial - Find Lanes for Self-Driving Cars](https://www.youtube.com/watch?v=eLTLtUVuuy4&ab_channel=ProgrammingKnowledge)
-
-
-![gif](https://github.com/cpgeier/SantosNet/raw/master/sample.gif?raw=true)
